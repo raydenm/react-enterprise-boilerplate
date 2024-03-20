@@ -13,6 +13,7 @@ When we developing an admin dashboard, Next.js is usually not needed. So I built
 - ✨ **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)** - For clean, consistent, and error-free code
 - 🛠️ **[Extremely strict TypeScript](https://www.typescriptlang.org/)** - With [`ts-reset`](https://github.com/total-typescript/ts-reset) library for ultimate type safety
 - 🧪 **[Vitest](https://vitest.dev/)** and **[React Testing Library](https://testing-library.com/react)** - For rock-solid unit and integration tests
+- 🎭 **[Playwright](https://playwright.dev/)** - Write end-to-end tests like a pro
 - 📕 **[Storybook](https://storybook.js.org/)** - Create, test, and showcase your components
 - 🎯 **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)** - No more spaghetti imports
 - 💎 **[CVA](http://cva.style/)** - Create a consistent, reusable, and atomic design system

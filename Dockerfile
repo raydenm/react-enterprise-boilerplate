@@ -1,4 +1,4 @@
-FROM harborbaas.zkjg.com:4443/library/node:alpine as base
+FROM node:18-alpine AS base
 
 RUN npm config set registry https://registry.npmmirror.com
 
@@ -9,7 +9,7 @@ RUN npm i
 COPY . .
 RUN npm run build
 
-FROM harborbaas.zkjg.com:4443/library/nginx as runner
+FROM base as runner
 
 COPY --from=builder /app/scripts/nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /app/dist /usr/share/nginx/html
